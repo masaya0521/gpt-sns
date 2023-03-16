@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>簡易SNSサイト</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>簡易SNSサイト</h1>
+    <form id="post-form">
+      <label for="username">ユーザー名:</label>
+      <input type="text" id="username" required />
+      <br />
+      <label for="message">メッセージ:</label>
+      <textarea id="message" required></textarea>
+      <br />
+      <button type="submit">投稿</button>
+    </form>
+    <div id="posts"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
